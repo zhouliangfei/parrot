@@ -6,44 +6,7 @@
 //  Copyright © 2016年 zhouliangfei. All rights reserved.
 //
 
-
-
-/*
- l(l|d)* 10
- dd* 11
- + 13
- - 14
- * 15
- / 16
- : 17
- := 18
- < 20
- <> 21
- <= 22
- > 23
- >= 24
- = 25
- ; 26
- ( 27
- ) 28
- //
- begin 1
- if 2
- then 3
- while 4
- do 5
- end 6
- */
 #include <stdio.h>
-#include <stdlib.h>
-
-/*enum type{
- null,
- string,
- number,
- };*/
-/*
- char * keyword[6]={"","","","","",""};*/
 
 int scanner(FILE * file, char * token){
     int i = 0;
